@@ -1,0 +1,204 @@
+{
+  "status": "pass",
+  "language": "en-US",
+  "page_type": "product",
+  "input_summary": {
+    "source_type": "markdown",
+    "char_count": 612,
+    "assumptions": [
+      "page_type 默认 product"
+    ],
+    "evidence_insufficient": false
+  },
+  "search_intent": {
+    "primary_intent": "commercial_investigation",
+    "secondary_intent": "how_to",
+    "decision_stage": "consideration",
+    "match_level": "strong",
+    "content_gaps": [
+      "battery life spec table",
+      "pairing step guide",
+      "warranty and support info"
+    ],
+    "suggested_modules": [
+      "FAQ",
+      "specification table",
+      "comparison with previous model"
+    ]
+  },
+  "keywords": [
+    {
+      "keyword": "wireless earbuds",
+      "language": "en-US",
+      "category": "primary",
+      "search_intent": "commercial_investigation",
+      "funnel_stage": "consideration",
+      "relevance": "High",
+      "evidence": "observable_phrase",
+      "priority": "High",
+      "recommended_placement": "title",
+      "risk_note": "正文直接支持",
+      "recommendation_reason": "页面核心主题词，正文多次出现"
+    },
+    {
+      "keyword": "AuraSound Wave Pro",
+      "language": "en-US",
+      "category": "primary",
+      "search_intent": "navigational",
+      "funnel_stage": "decision",
+      "relevance": "High",
+      "evidence": "observable_phrase",
+      "priority": "High",
+      "recommended_placement": "h1",
+      "risk_note": "品牌型号，需避免门页堆砌",
+      "recommendation_reason": "品牌型号词，利于品牌检索"
+    },
+    {
+      "keyword": "Bluetooth 5.3 earbuds",
+      "language": "en-US",
+      "category": "secondary",
+      "search_intent": "commercial_investigation",
+      "funnel_stage": "consideration",
+      "relevance": "High",
+      "evidence": "observable_phrase",
+      "priority": "Medium",
+      "recommended_placement": "body",
+      "risk_note": "无",
+      "recommendation_reason": "正文明确提及蓝牙版本，可支撑"
+    },
+    {
+      "keyword": "active noise cancellation",
+      "language": "en-US",
+      "category": "secondary",
+      "search_intent": "informational",
+      "funnel_stage": "awareness",
+      "relevance": "High",
+      "evidence": "observable_phrase",
+      "priority": "Medium",
+      "recommended_placement": "body",
+      "risk_note": "无",
+      "recommendation_reason": "核心卖点，正文支持"
+    },
+    {
+      "keyword": "IPX5 water resistance",
+      "language": "en-US",
+      "category": "long_tail",
+      "search_intent": "informational",
+      "funnel_stage": "awareness",
+      "relevance": "Medium",
+      "evidence": "observable_phrase",
+      "priority": "Medium",
+      "recommended_placement": "body",
+      "risk_note": "无",
+      "recommendation_reason": "具体规格词，长尾低竞争"
+    },
+    {
+      "keyword": "best wireless earbuds for running",
+      "language": "en-US",
+      "category": "long_tail",
+      "search_intent": "commercial_investigation",
+      "funnel_stage": "consideration",
+      "relevance": "Medium",
+      "evidence": "model_inference",
+      "priority": "Low",
+      "recommended_placement": "faq",
+      "risk_note": "需正文补充跑步场景证据",
+      "recommendation_reason": "场景化长尾，意图匹配但证据较弱"
+    },
+    {
+      "keyword": "USB-C quick charge earbuds",
+      "language": "en-US",
+      "category": "long_tail",
+      "search_intent": "commercial_investigation",
+      "funnel_stage": "decision",
+      "relevance": "Medium",
+      "evidence": "observable_phrase",
+      "priority": "Low",
+      "recommended_placement": "body",
+      "risk_note": "无",
+      "recommendation_reason": "充电特性词，正文支持"
+    },
+    {
+      "keyword": "how to pair wireless earbuds",
+      "language": "en-US",
+      "category": "question",
+      "search_intent": "informational",
+      "funnel_stage": "consideration",
+      "relevance": "Medium",
+      "evidence": "model_inference",
+      "priority": "Medium",
+      "recommended_placement": "faq",
+      "risk_note": "建议补充配对步骤",
+      "recommendation_reason": "问答型，对应内容缺口"
+    }
+  ],
+  "title_candidates": [
+    {
+      "title": "AuraSound Wave Pro Wireless Earbuds with Noise Cancellation",
+      "primary_keyword": "wireless earbuds",
+      "search_intent": "commercial_investigation",
+      "differentiation": "Medium",
+      "claim_risk": "Low",
+      "recommendation_reason": "含主关键词与核心卖点，自然可读"
+    },
+    {
+      "title": "Wireless Earbuds with Bluetooth 5.3 and ANC",
+      "primary_keyword": "wireless earbuds",
+      "search_intent": "commercial_investigation",
+      "differentiation": "Medium",
+      "claim_risk": "Low",
+      "recommendation_reason": "突出连接与降噪规格"
+    },
+    {
+      "title": "AuraSound Wave Pro: Comfortable Earbuds for Commuters",
+      "primary_keyword": "wireless earbuds",
+      "search_intent": "commercial_investigation",
+      "differentiation": "High",
+      "claim_risk": "Low",
+      "recommendation_reason": "场景化差异化，避开纯规格竞争"
+    }
+  ],
+  "meta_candidates": [
+    {
+      "meta_description": "AuraSound Wave Pro wireless earbuds feature Bluetooth 5.3, active noise cancellation, and 28 hours of playback. Lightweight and IPX5 rated for daily use.",
+      "covered_intent": "commercial_investigation",
+      "included_keyword": "wireless earbuds",
+      "value_proposition": "long battery and stable connection",
+      "cta_type": "learn_more",
+      "claim_risk": "Low",
+      "recommendation_reason": "完整句概括核心卖点，自然含主词"
+    },
+    {
+      "meta_description": "Discover AuraSound Wave Pro true wireless earbuds with ANC and USB-C quick charge. Designed for commuting, running, and remote work.",
+      "covered_intent": "commercial_investigation",
+      "included_keyword": "wireless earbuds",
+      "value_proposition": "versatile for multiple scenarios",
+      "cta_type": "learn_more",
+      "claim_risk": "Low",
+      "recommendation_reason": "覆盖多场景，吸引考虑期用户"
+    }
+  ],
+  "content_gaps": [
+    {
+      "module": "Battery & spec table",
+      "reason": "正文提到 28 小时但未以结构化规格呈现，建议补充"
+    },
+    {
+      "module": "Pairing guide",
+      "reason": "搜索意图含 how_to，建议补充配对步骤 FAQ"
+    },
+    {
+      "module": "Warranty info",
+      "reason": "决策阶段用户关注售后，建议补充保修说明"
+    }
+  ],
+  "risks": [
+    {
+      "type": "invalid_enum",
+      "severity": "Low",
+      "detail": "search_intent 非法已修正",
+      "location": "keywords"
+    }
+  ],
+  "validation": {}
+}

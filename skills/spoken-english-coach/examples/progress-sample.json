@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "updated_at": "2026-07-29",
+  "total_sessions": 3,
+  "error_profile": {
+    "grammar-tense": {"count": 5, "last_seen": "2026-07-29"},
+    "grammar-plural": {"count": 2, "last_seen": "2026-07-20"},
+    "chinglish": {"count": 1, "last_seen": "2026-07-29"}
+  },
+  "weak_topics": {
+    "travel": 2,
+    "interview": 1
+  },
+  "strong_topics": ["daily-life"],
+  "ttr_history": [0.48, 0.53, 0.61],
+  "band_history": ["C", "B", "B"],
+  "recommended_focus": {
+    "category": "grammar-tense",
+    "topic": "travel"
+  }
+}

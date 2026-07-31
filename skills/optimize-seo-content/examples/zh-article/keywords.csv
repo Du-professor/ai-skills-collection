@@ -1,0 +1,8 @@
+﻿keyword,language,category,search_intent,funnel_stage,relevance,evidence,priority,recommended_placement,risk_note,recommendation_reason
+机械键盘,zh-CN,primary,commercial_investigation,consideration,High,observable_phrase,High,title,正文核心主题,文章主题词，贯穿全文
+机械键盘轴体区别,zh-CN,secondary,informational,awareness,High,observable_phrase,Medium,body,无,正文重点讲解轴体差异
+客制化键盘,zh-CN,secondary,commercial_investigation,decision,Medium,observable_phrase,Low,body,正文提到但证据有限,进阶需求词，正文有提及
+红轴 茶轴 青轴,zh-CN,long_tail,informational,awareness,Medium,observable_phrase,Medium,body,无,具体轴体词，长尾低竞争
+游戏键盘推荐,zh-CN,long_tail,commercial_investigation,decision,Medium,model_inference,Low,faq,需补充具体型号,场景长尾，建议补充型号支撑
+如何选择机械键盘,zh-CN,question,informational,consideration,High,observable_phrase,High,h1,无,问答型主意图词，匹配文章标题
+机械键盘怎么选,zh-CN,question,informational,consideration,High,model_inference,Medium,faq,无,口语化问答词，覆盖搜索意图

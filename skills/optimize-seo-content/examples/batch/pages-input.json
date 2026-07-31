@@ -1,0 +1,26 @@
+[
+  {
+    "id": "wave-pro",
+    "title": "AuraSound Wave Pro Wireless Earbuds with Noise Cancellation",
+    "meta_description": "AuraSound Wave Pro wireless earbuds with ANC and 28h battery.",
+    "h1": "AuraSound Wave Pro",
+    "keywords": ["wireless earbuds", "auraSound wave pro", "bluetooth 5.3", "anc", "ipx5", "usb-c"],
+    "opening": "The AuraSound Wave Pro are true wireless earbuds designed for commuting and workouts with Bluetooth 5.3 and active noise cancellation."
+  },
+  {
+    "id": "wave-lite",
+    "title": "AuraSound Wave Lite Wireless Earbuds with Noise Cancellation",
+    "meta_description": "AuraSound Wave Lite wireless earbuds with ANC and 20h battery.",
+    "h1": "AuraSound Wave Lite",
+    "keywords": ["wireless earbuds", "auraSound wave lite", "bluetooth 5.3", "anc", "ipx4", "usb-c"],
+    "opening": "The AuraSound Wave Lite are true wireless earbuds designed for commuting and workouts with Bluetooth 5.3 and active noise cancellation."
+  },
+  {
+    "id": "wave-max",
+    "title": "AuraSound Wave Max Wireless Earbuds with Noise Cancellation",
+    "meta_description": "AuraSound Wave Max wireless earbuds with ANC and 35h battery.",
+    "h1": "AuraSound Wave Max",
+    "keywords": ["wireless earbuds", "auraSound wave max", "bluetooth 5.3", "anc", "ipx5", "usb-c"],
+    "opening": "The AuraSound Wave Max are true wireless earbuds designed for commuting and workouts with Bluetooth 5.3 and active noise cancellation."
+  }
+]

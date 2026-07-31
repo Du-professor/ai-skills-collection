@@ -1,0 +1,217 @@
+{
+  "status": "pass",
+  "language": "zh-CN",
+  "page_type": "article",
+  "input_summary": {
+    "source_type": "markdown",
+    "char_count": 268,
+    "assumptions": [
+      "page_type 默认 article"
+    ],
+    "evidence_insufficient": false
+  },
+  "search_intent": {
+    "primary_intent": "how_to",
+    "secondary_intent": "commercial_investigation",
+    "decision_stage": "consideration",
+    "match_level": "strong",
+    "content_gaps": [
+      "具体型号推荐",
+      "价格区间参考",
+      "不同轴体对比表"
+    ],
+    "suggested_modules": [
+      "轴体对比表",
+      "按场景选购清单",
+      "FAQ"
+    ]
+  },
+  "keywords": [
+    {
+      "keyword": "机械键盘",
+      "language": "zh-CN",
+      "category": "primary",
+      "search_intent": "commercial_investigation",
+      "funnel_stage": "consideration",
+      "relevance": "High",
+      "evidence": "observable_phrase",
+      "priority": "High",
+      "recommended_placement": "title",
+      "risk_note": "正文核心主题",
+      "recommendation_reason": "文章主题词，贯穿全文"
+    },
+    {
+      "keyword": "机械键盘轴体区别",
+      "language": "zh-CN",
+      "category": "secondary",
+      "search_intent": "informational",
+      "funnel_stage": "awareness",
+      "relevance": "High",
+      "evidence": "observable_phrase",
+      "priority": "Medium",
+      "recommended_placement": "body",
+      "risk_note": "无",
+      "recommendation_reason": "正文重点讲解轴体差异"
+    },
+    {
+      "keyword": "客制化键盘",
+      "language": "zh-CN",
+      "category": "secondary",
+      "search_intent": "commercial_investigation",
+      "funnel_stage": "decision",
+      "relevance": "Medium",
+      "evidence": "observable_phrase",
+      "priority": "Low",
+      "recommended_placement": "body",
+      "risk_note": "正文提到但证据有限",
+      "recommendation_reason": "进阶需求词，正文有提及"
+    },
+    {
+      "keyword": "红轴 茶轴 青轴",
+      "language": "zh-CN",
+      "category": "long_tail",
+      "search_intent": "informational",
+      "funnel_stage": "awareness",
+      "relevance": "Medium",
+      "evidence": "observable_phrase",
+      "priority": "Medium",
+      "recommended_placement": "body",
+      "risk_note": "无",
+      "recommendation_reason": "具体轴体词，长尾低竞争"
+    },
+    {
+      "keyword": "游戏键盘推荐",
+      "language": "zh-CN",
+      "category": "long_tail",
+      "search_intent": "commercial_investigation",
+      "funnel_stage": "decision",
+      "relevance": "Medium",
+      "evidence": "model_inference",
+      "priority": "Low",
+      "recommended_placement": "faq",
+      "risk_note": "需补充具体型号",
+      "recommendation_reason": "场景长尾，建议补充型号支撑"
+    },
+    {
+      "keyword": "如何选择机械键盘",
+      "language": "zh-CN",
+      "category": "question",
+      "search_intent": "informational",
+      "funnel_stage": "consideration",
+      "relevance": "High",
+      "evidence": "observable_phrase",
+      "priority": "High",
+      "recommended_placement": "h1",
+      "risk_note": "无",
+      "recommendation_reason": "问答型主意图词，匹配文章标题"
+    },
+    {
+      "keyword": "机械键盘怎么选",
+      "language": "zh-CN",
+      "category": "question",
+      "search_intent": "informational",
+      "funnel_stage": "consideration",
+      "relevance": "High",
+      "evidence": "model_inference",
+      "priority": "Medium",
+      "recommended_placement": "faq",
+      "risk_note": "无",
+      "recommendation_reason": "口语化问答词，覆盖搜索意图"
+    }
+  ],
+  "title_candidates": [
+    {
+      "title": "如何选择机械键盘：轴体配列场景一文讲清",
+      "primary_keyword": "机械键盘",
+      "search_intent": "how_to",
+      "differentiation": "Medium",
+      "claim_risk": "Low",
+      "recommendation_reason": "含主关键词且呼应文章结构",
+      "character_count": 19,
+      "quality_score": 92
+    },
+    {
+      "title": "机械键盘选购指南：红轴茶轴青轴怎么选",
+      "primary_keyword": "机械键盘",
+      "search_intent": "how_to",
+      "differentiation": "High",
+      "claim_risk": "Low",
+      "recommendation_reason": "场景化差异化，直接命中选购意图",
+      "character_count": 18,
+      "quality_score": 100
+    },
+    {
+      "title": "一文看懂机械键盘轴体区别与配列",
+      "primary_keyword": "机械键盘",
+      "search_intent": "informational",
+      "differentiation": "Medium",
+      "claim_risk": "Low",
+      "recommendation_reason": "强调知识科普，覆盖信息意图",
+      "character_count": 15,
+      "quality_score": 92
+    }
+  ],
+  "meta_candidates": [
+    {
+      "meta_description": "机械键盘怎么选？本文讲清红轴、茶轴、青轴的手感差异，以及 60%、87、全尺寸配列的取舍，帮你按场景选购合适的键盘。",
+      "covered_intent": "how_to",
+      "included_keyword": "机械键盘",
+      "value_proposition": "按场景理性选购",
+      "cta_type": "learn_more",
+      "claim_risk": "Low",
+      "recommendation_reason": "完整句覆盖选购意图，自然含主词",
+      "character_count": 58,
+      "quality_score": 93
+    },
+    {
+      "meta_description": "从轴体到配列，带你搞懂机械键盘的核心区别，避开盲目追高价的选购误区。",
+      "covered_intent": "informational",
+      "included_keyword": "机械键盘",
+      "value_proposition": "避开选购误区",
+      "cta_type": "learn_more",
+      "claim_risk": "Low",
+      "recommendation_reason": "强调误区科普，吸引信息意图用户",
+      "character_count": 34,
+      "quality_score": 85
+    }
+  ],
+  "content_gaps": [
+    {
+      "module": "轴体对比表",
+      "reason": "正文描述轴体但缺少结构化对比，建议补充表格"
+    },
+    {
+      "module": "价格区间",
+      "reason": "决策阶段用户关注预算，建议补充参考区间"
+    },
+    {
+      "module": "具体型号推荐",
+      "reason": "商业调查意图，建议补充 2-3 款示例型号"
+    }
+  ],
+  "risks": [
+    {
+      "type": "invalid_enum",
+      "severity": "Low",
+      "detail": "search_intent 非法已修正",
+      "location": "keywords"
+    },
+    {
+      "type": "invalid_enum",
+      "severity": "Low",
+      "detail": "search_intent 非法已修正",
+      "location": "keywords"
+    }
+  ],
+  "validation": {},
+  "recommended_title": {
+    "title": "机械键盘选购指南：红轴茶轴青轴怎么选",
+    "selection_reason": "选取 quality_score 最高（100）的候选",
+    "quality_score": 100
+  },
+  "recommended_meta": {
+    "meta_description": "机械键盘怎么选？本文讲清红轴、茶轴、青轴的手感差异，以及 60%、87、全尺寸配列的取舍，帮你按场景选购合适的键盘。",
+    "selection_reason": "选取 quality_score 最高（93）的候选",
+    "quality_score": 93
+  }
+}

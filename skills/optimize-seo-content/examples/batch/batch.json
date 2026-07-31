@@ -1,0 +1,60 @@
+{
+  "pages": [
+    {
+      "id": "wave-pro",
+      "status": "Cannibalization Risk",
+      "flags": [
+        "Cannibalization Risk",
+        "Review"
+      ]
+    },
+    {
+      "id": "wave-lite",
+      "status": "Review",
+      "flags": [
+        "Review"
+      ]
+    },
+    {
+      "id": "wave-max",
+      "status": "Cannibalization Risk",
+      "flags": [
+        "Cannibalization Risk",
+        "Review"
+      ]
+    }
+  ],
+  "pairs": [
+    {
+      "a": "wave-pro",
+      "b": "wave-lite",
+      "issues": [
+        "title_template_swap",
+        "opening_similarity(0.97)"
+      ]
+    },
+    {
+      "a": "wave-pro",
+      "b": "wave-max",
+      "issues": [
+        "title_template_swap",
+        "keyword_cannibalization(0.71)",
+        "opening_similarity(0.98)"
+      ]
+    },
+    {
+      "a": "wave-lite",
+      "b": "wave-max",
+      "issues": [
+        "title_template_swap",
+        "opening_similarity(0.97)"
+      ]
+    }
+  ],
+  "summary": {
+    "Duplicate": 0,
+    "Cannibalization Risk": 2,
+    "Review": 1,
+    "Pass": 0
+  }
+}

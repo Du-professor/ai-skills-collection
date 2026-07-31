@@ -1,0 +1,153 @@
+{
+  "schema_version": "1.0",
+  "meta": {
+    "record_type": "meta",
+    "schema_version": "1.0",
+    "strategy": "演示数据全量标注",
+    "total_available": 12,
+    "total_sampled": 12,
+    "per_product": {
+      "P100": {"available": 4, "sampled": 4},
+      "P200": {"available": 4, "sampled": 4},
+      "P300": {"available": 4, "sampled": 4}
+    },
+    "warnings": []
+  },
+  "reviews": [
+    {
+      "record_type": "review",
+      "review_id": "R1004",
+      "product_id": "P100",
+      "review_text": "客服回复很快，换货流程顺利。",
+      "review_hash": "ca1600d6d1b1ee55dee970aa417447a67249e469150d466956a14bc9d5279e20",
+      "source_url": "https://mall.example.cn/reviews/r1004",
+      "annotations": [
+        {"aspect": "售后", "sentiment": "正向", "evidence": "客服回复很快，换货流程顺利", "severity": "未知"}
+      ]
+    },
+    {
+      "record_type": "review",
+      "review_id": "R2004",
+      "product_id": "P200",
+      "review_text": "包装破损，机器边角有磕碰。",
+      "review_hash": "34a6cdf67f68bbb0d2ece8ee66a39199dd66acb0f3aeb314fd2aa2b24bcecb17",
+      "source_url": "https://mall.example.cn/reviews/r2004",
+      "annotations": [
+        {"aspect": "物流", "sentiment": "负向", "evidence": "包装破损，机器边角有磕碰", "severity": "中", "unmet_need": "包装防护更可靠"}
+      ]
+    },
+    {
+      "record_type": "review",
+      "review_id": "R3003",
+      "product_id": "P300",
+      "review_text": "用了两周涂层开始脱落，担心耐用性。",
+      "review_hash": "138f44dc342295ddf3e1477156b4da0390e9ff42403602a3d6331d547b40f576",
+      "source_url": "https://mall.example.cn/reviews/r3003",
+      "annotations": [
+        {"aspect": "质量耐用", "sentiment": "负向", "evidence": "用了两周涂层开始脱落", "severity": "高", "unmet_need": "更耐用且安全的涂层"}
+      ]
+    },
+    {
+      "record_type": "review",
+      "review_id": "R1002",
+      "product_id": "P100",
+      "review_text": "炸篮清洗有点费劲，缝隙容易藏油。",
+      "review_hash": "9191f225b2a80c898c191b124980c67fe87c11d7e0ff66c52b0fa02bd4a1fa80",
+      "source_url": "https://mall.example.cn/reviews/r1002",
+      "annotations": [
+        {"aspect": "易用性", "sentiment": "负向", "evidence": "炸篮清洗有点费劲，缝隙容易藏油", "severity": "低", "unmet_need": "减少清洁死角"}
+      ]
+    },
+    {
+      "record_type": "review",
+      "review_id": "R2003",
+      "product_id": "P200",
+      "review_text": "体积小不占台面，但容量也确实偏小。",
+      "review_hash": "b0a2590fb1d6af3acf701883c9b5b3651bbf84a82fbae59b0ab66e956378f4d4",
+      "source_url": "https://mall.example.cn/reviews/r2003",
+      "annotations": [
+        {"aspect": "设计", "sentiment": "混合", "evidence": "体积小不占台面，但容量也确实偏小", "severity": "低", "unmet_need": "紧凑体积下提升容量"}
+      ]
+    },
+    {
+      "record_type": "review",
+      "review_id": "R3001",
+      "product_id": "P300",
+      "review_text": "容量大，整鸡可以一次放下。",
+      "review_hash": "4472a0f225e36fbdf0311499d34209205bcc5e799465b055b683d96971da9a84",
+      "source_url": "https://mall.example.cn/reviews/r3001",
+      "annotations": [
+        {"aspect": "设计", "sentiment": "正向", "evidence": "容量大，整鸡可以一次放下", "severity": "未知"}
+      ]
+    },
+    {
+      "record_type": "review",
+      "review_id": "R1003",
+      "product_id": "P100",
+      "review_text": "运行声音偏大，但成品效果不错。",
+      "review_hash": "2b9b3d495fd9d6233281b6181807d48041dcc7070fa97a7224fe0f484eb2a7b0",
+      "source_url": "https://mall.example.cn/reviews/r1003",
+      "annotations": [
+        {"aspect": "性能", "sentiment": "混合", "evidence": "运行声音偏大，但成品效果不错", "severity": "低", "unmet_need": "降低运行噪声"}
+      ]
+    },
+    {
+      "record_type": "review",
+      "review_id": "R2002",
+      "product_id": "P200",
+      "review_text": "预设菜单少，第一次使用要反复看说明书。",
+      "review_hash": "1f54a7ce3c553bad09f8ce102d429bee40f7569d7de35b6e14cf732059b12603",
+      "source_url": "https://mall.example.cn/reviews/r2002",
+      "annotations": [
+        {"aspect": "易用性", "sentiment": "负向", "evidence": "第一次使用要反复看说明书", "severity": "中", "unmet_need": "更直观的首次使用引导"}
+      ]
+    },
+    {
+      "record_type": "review",
+      "review_id": "R3004",
+      "product_id": "P300",
+      "review_text": "外观有质感，不过价格偏高。",
+      "review_hash": "f92f749fa0e1fcfd687fdaf14c961dd9ccedfa1fbd5cb3f896f7993a81d663c4",
+      "source_url": "https://mall.example.cn/reviews/r3004",
+      "annotations": [
+        {"aspect": "设计", "sentiment": "正向", "evidence": "外观有质感", "severity": "未知"},
+        {"aspect": "性价比", "sentiment": "负向", "evidence": "价格偏高", "severity": "低", "unmet_need": "更有说服力的价格价值"}
+      ]
+    },
+    {
+      "record_type": "review",
+      "review_id": "R1001",
+      "product_id": "P100",
+      "review_text": "升温很快，薯条外脆内软，操作也直观。",
+      "review_hash": "6c65c485c12835f1f1e981795ddd880a43dac30ac7dae47bb47290d7212aa4d1",
+      "source_url": "https://mall.example.cn/reviews/r1001",
+      "annotations": [
+        {"aspect": "性能", "sentiment": "正向", "evidence": "升温很快，薯条外脆内软", "severity": "未知"},
+        {"aspect": "易用性", "sentiment": "正向", "evidence": "操作也直观", "severity": "未知"}
+      ]
+    },
+    {
+      "record_type": "review",
+      "review_id": "R2001",
+      "product_id": "P200",
+      "review_text": "价格实惠，日常两人使用够用。",
+      "review_hash": "8945dec7909b20451fb645875592723e0b912c5a1c8bd5bd365678a921e5423b",
+      "source_url": "https://mall.example.cn/reviews/r2001",
+      "annotations": [
+        {"aspect": "性价比", "sentiment": "正向", "evidence": "价格实惠", "severity": "未知"},
+        {"aspect": "设计", "sentiment": "正向", "evidence": "日常两人使用够用", "severity": "未知"}
+      ]
+    },
+    {
+      "record_type": "review",
+      "review_id": "R3002",
+      "product_id": "P300",
+      "review_text": "加热速度比预期慢，预热时间较长。",
+      "review_hash": "b88a13b3593e943c721a87b50ac6e050d0fc3cf0ffbd4902f5cfca603d6f99d5",
+      "source_url": "https://mall.example.cn/reviews/r3002",
+      "annotations": [
+        {"aspect": "性能", "sentiment": "负向", "evidence": "加热速度比预期慢，预热时间较长", "severity": "中", "unmet_need": "缩短预热和加热时间"}
+      ]
+    }
+  ]
+}

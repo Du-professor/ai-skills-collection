@@ -1,0 +1,5 @@
+product_id,brand,product_name,price,currency,platform,url,rating,review_count,collected_at,list_price,category,model,specs,is_own_brand
+P100,清风,AirChef 5L,429,CNY,示例商城,https://mall.example.cn/products/p100,4.3,1280,2026-07-20,499,空气炸锅,AC5,5L 1500W,true
+P100,清风,AirChef 5L,399,CNY,示例商城,https://mall.example.cn/products/p100,4.3,1280,2026-07-28,499,空气炸锅,AC5,5L 1500W,true
+P200,锐厨,Crisp Pro 4.5L,359,CNY,示例商城,https://mall.example.cn/products/p200,4.5,2380,2026-07-28,399,空气炸锅,CP45,4.5L 1400W,false
+P300,家味,HeatMax 6L,499,CNY,示例商城,https://mall.example.cn/products/p300,4.1,960,2026-07-28,549,空气炸锅,HM6,6L 1700W,false

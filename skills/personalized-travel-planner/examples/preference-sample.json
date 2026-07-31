@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "updated_at": "2026-07-29",
+  "budget_tier": "comfort",
+  "budget_currency": "CNY",
+  "frequent_cities": ["杭州", "成都"],
+  "dietary_restrictions": ["素食", "不吃辣"],
+  "companion_types": ["家庭"],
+  "interest_tags": ["美食", "自然", "历史"],
+  "preferred_transport": ["高铁", "打车"],
+  "avoid": ["人流密集"],
+  "last_destinations": ["西安"],
+  "recommended_next": { "destination": "成都", "reason": "基于兴趣「美食」推荐" }
+}

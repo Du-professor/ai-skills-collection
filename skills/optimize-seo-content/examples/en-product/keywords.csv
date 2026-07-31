@@ -1,0 +1,9 @@
+﻿keyword,language,category,search_intent,funnel_stage,relevance,evidence,priority,recommended_placement,risk_note,recommendation_reason
+wireless earbuds,en-US,primary,commercial_investigation,consideration,High,observable_phrase,High,title,正文直接支持,页面核心主题词，正文多次出现
+AuraSound Wave Pro,en-US,primary,navigational,decision,High,observable_phrase,High,h1,品牌型号，需避免门页堆砌,品牌型号词，利于品牌检索
+Bluetooth 5.3 earbuds,en-US,secondary,commercial_investigation,consideration,High,observable_phrase,Medium,body,无,正文明确提及蓝牙版本，可支撑
+active noise cancellation,en-US,secondary,informational,awareness,High,observable_phrase,Medium,body,无,核心卖点，正文支持
+IPX5 water resistance,en-US,long_tail,informational,awareness,Medium,observable_phrase,Medium,body,无,具体规格词，长尾低竞争
+best wireless earbuds for running,en-US,long_tail,commercial_investigation,consideration,Medium,model_inference,Low,faq,需正文补充跑步场景证据,场景化长尾，意图匹配但证据较弱
+USB-C quick charge earbuds,en-US,long_tail,commercial_investigation,decision,Medium,observable_phrase,Low,body,无,充电特性词，正文支持
+how to pair wireless earbuds,en-US,question,informational,consideration,Medium,model_inference,Medium,faq,建议补充配对步骤,问答型，对应内容缺口

@@ -1,0 +1,67 @@
+{
+  "mode": "compare",
+  "policies": [
+    {"id": "P1", "title": "某市支持中小企业数字化转型若干措施", "issued_by": "某市工业和信息化局", "issued_date": "2025-03-15"},
+    {"id": "P2", "title": "某省制造业企业智能化升级奖补办法", "issued_by": "某省工业和信息化厅", "issued_date": "2024-11-02"}
+  ],
+  "dimensions": [
+    {
+      "dimension": "target",
+      "label": "适用对象",
+      "rows": [
+        {"policy_id": "P1", "value": "本市年营业收入不超过 2 亿元的中小微企业"},
+        {"policy_id": "P2", "value": "本省规模以上制造业企业"}
+      ]
+    },
+    {
+      "dimension": "support_strength",
+      "label": "支持力度",
+      "rows": [
+        {"policy_id": "P1", "value": "实际投入 30% 补助，单户最高 50 万元"},
+        {"policy_id": "P2", "value": "按设备投资额 20% 奖补，单户最高 300 万元"}
+      ]
+    },
+    {
+      "dimension": "threshold",
+      "label": "门槛条件",
+      "rows": [
+        {"policy_id": "P1", "value": "完成数字化改造并验收通过"},
+        {"policy_id": "P2", "value": "设备投资额不低于 500 万元且通过智能化评估"}
+      ]
+    },
+    {
+      "dimension": "timeline",
+      "label": "时限",
+      "rows": [
+        {"policy_id": "P1", "value": "2025-05-01 起三年，每年 3/9 月申报"},
+        {"policy_id": "P2", "value": "2025-01-01 起两年，季度申报"}
+      ]
+    },
+    {
+      "dimension": "region",
+      "label": "地域",
+      "rows": [
+        {"policy_id": "P1", "value": "某市"},
+        {"policy_id": "P2", "value": "某省"}
+      ]
+    },
+    {
+      "dimension": "authority",
+      "label": "主管部门",
+      "rows": [
+        {"policy_id": "P1", "value": "某市工业和信息化局"},
+        {"policy_id": "P2", "value": "某省工业和信息化厅"}
+      ]
+    },
+    {
+      "dimension": "diff",
+      "label": "核心差异点",
+      "rows": [
+        {"policy_id": "P1", "value": "面向小微、补助比例高但上限低、偏数字化转型"},
+        {"policy_id": "P2", "value": "面向规上制造、奖补上限高但门槛高、偏智能化设备"}
+      ]
+    }
+  ],
+  "diff_summary": "两份政策均为产业扶持，但 P1 面向本市小微企业、以数字化改造补助为主、门槛低上限低；P2 面向全省规上制造业、以智能化设备奖补为主、门槛高上限高。",
+  "recommendation": "小微企业可优先申报 P1；设备投资较大的规上制造企业更适合 P2，可并行关注本省其他专项。"
+}

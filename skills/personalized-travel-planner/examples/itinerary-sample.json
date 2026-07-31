@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "title": "杭州3日亲子游",
+    "origin": "上海",
+    "destination": "杭州",
+    "start_date": "2026-08-01",
+    "end_date": "2026-08-03",
+    "days": 3,
+    "companion_type": "家庭",
+    "budget_tier": "comfort",
+    "total_budget": 5000,
+    "currency": "CNY",
+    "interest_tags": ["美食", "自然", "亲子"],
+    "dietary_restrictions": ["不吃辣"]
+  },
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-08-01",
+      "city": "杭州",
+      "segments": [
+        {"id": "d1s1", "type": "transport", "start_time": "08:00", "end_time": "09:30", "title": "上海虹桥→杭州东 高铁", "transport_mode": "高铁", "from": "上海虹桥", "to": "杭州东", "cost": 120, "notes": ""},
+        {"id": "d1s2", "type": "attraction", "start_time": "10:30", "end_time": "12:30", "title": "西湖断桥与白堤", "category": "自然风光", "location": "西湖景区", "cost": 0, "notes": "亲子友好，平缓步道"},
+        {"id": "d1s3", "type": "meal", "start_time": "12:30", "end_time": "13:30", "title": "楼外楼午餐", "meal_type": "午餐", "cost": 200, "notes": "已避开辣味"},
+        {"id": "d1s4", "type": "attraction", "start_time": "14:30", "end_time": "16:30", "title": "杭州少年儿童公园", "category": "亲子乐园", "location": "杭州少年儿童公园", "cost": 60, "notes": "适合幼童"},
+        {"id": "d1s5", "type": "accommodation", "start_time": "20:00", "end_time": "08:00", "title": "入住西湖边民宿", "accommodation_type": "民宿", "location": "西湖景区", "cost": 400, "notes": "家庭房", "cross_midnight": true}
+      ]
+    },
+    {
+      "day": 2,
+      "date": "2026-08-02",
+      "city": "杭州",
+      "segments": [
+        {"id": "d2s1", "type": "meal", "start_time": "08:30", "end_time": "09:00", "title": "民宿早餐", "meal_type": "早餐", "cost": 30, "notes": ""},
+        {"id": "d2s2", "type": "attraction", "start_time": "09:30", "end_time": "11:30", "title": "灵隐寺", "category": "历史古迹", "location": "灵隐寺", "cost": 75, "notes": "周末人多，早到"},
+        {"id": "d2s3", "type": "meal", "start_time": "11:30", "end_time": "12:30", "title": "灵隐周边素斋", "meal_type": "午餐", "cost": 120, "notes": "清淡"},
+        {"id": "d2s4", "type": "attraction", "start_time": "13:30", "end_time": "15:30", "title": "浙江省博物馆", "category": "博物馆", "location": "浙江省博物馆", "cost": 0, "notes": "室内避暑"},
+        {"id": "d2s5", "type": "free", "start_time": "16:00", "end_time": "18:00", "title": "西湖边散步", "cost": 0, "notes": ""},
+        {"id": "d2s6", "type": "accommodation", "start_time": "20:00", "end_time": "08:00", "title": "入住西湖边民宿", "accommodation_type": "民宿", "location": "西湖景区", "cost": 400, "notes": "家庭房", "cross_midnight": true}
+      ]
+    },
+    {
+      "day": 3,
+      "date": "2026-08-03",
+      "city": "杭州",
+      "segments": [
+        {"id": "d3s1", "type": "meal", "start_time": "08:30", "end_time": "09:00", "title": "民宿早餐", "meal_type": "早餐", "cost": 30, "notes": ""},
+        {"id": "d3s2", "type": "attraction", "start_time": "09:30", "end_time": "11:30", "title": "河坊街", "category": "美食街区", "location": "河坊街", "cost": 0, "notes": "小吃集中"},
+        {"id": "d3s3", "type": "meal", "start_time": "11:30", "end_time": "12:30", "title": "河坊街小吃", "meal_type": "小吃夜市", "cost": 80, "notes": "不辣"},
+        {"id": "d3s4", "type": "transport", "start_time": "14:00", "end_time": "15:30", "title": "杭州东→上海虹桥 高铁", "transport_mode": "高铁", "from": "杭州东", "to": "上海虹桥", "cost": 120, "notes": ""},
+        {"id": "d3s5", "type": "free", "start_time": "15:30", "end_time": "17:00", "title": "返程到家", "cost": 0, "notes": ""}
+      ]
+    }
+  ],
+  "budget_breakdown": {
+    "transport": 240,
+    "accommodation": 800,
+    "ticket": 135,
+    "meal": 460,
+    "contingency": 620,
+    "total": 2255
+  },
+  "weather_traffic_notes": [
+    {"scope": "day1 杭州", "source": "realtime", "text": "午后体感炎热，注意防晒与补水", "amap_hint": "建议在高德地图查看：搜索『杭州 实时天气』"},
+    {"scope": "day2 灵隐寺", "source": "estimate", "text": "周末灵隐寺周边易拥堵，建议早到或错峰", "amap_hint": "建议在高德地图查看：搜索『灵隐寺 实时路况』"}
+  ],
+  "preferences_applied": ["budget_tier=comfort", "dietary=不吃辣", "interest=亲子", "companion=家庭"],
+  "data_source_note": "realtime"
+}

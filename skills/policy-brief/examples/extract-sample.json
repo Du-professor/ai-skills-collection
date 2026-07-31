@@ -1,0 +1,29 @@
+{
+  "mode": "extract",
+  "title": "某市支持中小企业数字化转型若干措施",
+  "categories": [
+    {
+      "category": "fiscal_subsidy",
+      "label": "财政补贴",
+      "points": [
+        {"point": "完成改造并验收通过的企业按实际投入 30% 补助", "quote": "按实际投入的 30% 给予补助，单户最高 50 万元", "location": "第四章 第十二条"},
+        {"point": "数字化诊断服务由财政全额补贴", "quote": "诊断服务由财政全额补贴", "location": "第三章 第九条"}
+      ]
+    },
+    {
+      "category": "support_target",
+      "label": "支持对象",
+      "points": [
+        {"point": "面向年营业收入不超过 2 亿元且未严重失信的中小微企业", "quote": "年营业收入不超过 2 亿元的中小微企业，且未列入严重失信名单", "location": "第二章 第四条"}
+      ]
+    },
+    {
+      "category": "time_limit",
+      "label": "时限要求",
+      "points": [
+        {"point": "措施有效期三年，每年 3 月、9 月集中申报", "quote": "自 2025 年 5 月 1 日起施行，有效期三年；企业每年 3 月、9 月集中申报", "location": "第五章 第十五条"}
+      ]
+    }
+  ],
+  "total_points": 4
+}

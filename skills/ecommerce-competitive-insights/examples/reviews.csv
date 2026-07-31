@@ -1,0 +1,13 @@
+review_id,product_id,review_text,rating,review_date,source_url,variant,helpful_count
+R1001,P100,升温很快，薯条外脆内软，操作也直观。,5,2026-07-21,https://mall.example.cn/reviews/r1001,黑色,18
+R1002,P100,炸篮清洗有点费劲，缝隙容易藏油。,3,2026-07-22,https://mall.example.cn/reviews/r1002,黑色,9
+R1003,P100,运行声音偏大，但成品效果不错。,4,2026-07-23,https://mall.example.cn/reviews/r1003,白色,12
+R1004,P100,客服回复很快，换货流程顺利。,5,2026-07-24,https://mall.example.cn/reviews/r1004,白色,6
+R2001,P200,价格实惠，日常两人使用够用。,5,2026-07-19,https://mall.example.cn/reviews/r2001,灰色,22
+R2002,P200,预设菜单少，第一次使用要反复看说明书。,2,2026-07-20,https://mall.example.cn/reviews/r2002,灰色,15
+R2003,P200,体积小不占台面，但容量也确实偏小。,4,2026-07-22,https://mall.example.cn/reviews/r2003,灰色,11
+R2004,P200,包装破损，机器边角有磕碰。,1,2026-07-25,https://mall.example.cn/reviews/r2004,灰色,20
+R3001,P300,容量大，整鸡可以一次放下。,5,2026-07-18,https://mall.example.cn/reviews/r3001,银色,31
+R3002,P300,加热速度比预期慢，预热时间较长。,2,2026-07-20,https://mall.example.cn/reviews/r3002,银色,24
+R3003,P300,用了两周涂层开始脱落，担心耐用性。,1,2026-07-23,https://mall.example.cn/reviews/r3003,银色,38
+R3004,P300,外观有质感，不过价格偏高。,3,2026-07-26,https://mall.example.cn/reviews/r3004,银色,17
