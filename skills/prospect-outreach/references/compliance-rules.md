@@ -8,6 +8,9 @@ Use these operational guardrails before recommending a contact channel or drafti
 - Prefer a public, role-relevant business address; otherwise use a public department or general routing address.
 - Record the public source of a recommended contact channel.
 - Do not infer an unlisted email pattern, guess an individual's address, or recommend a private email or phone number.
+- Do not use scraped contact dumps, breach data, access-controlled records, paywalled people-search previews, or copied directory clusters as address evidence.
+- A corporate-domain address found only through a third party is a research lead, not a sendable channel, until an official or contact-controlled source corroborates it.
+- Do not claim that a mailbox is valid or deliverable unless the user provides legitimate sending evidence; do not perform SMTP probing or mailbox pings.
 - Do not expose home addresses, personal IDs, non-public profiles, or sensitive personal attributes.
 - Do not personalize from family, health, politics, religion, ethnicity, union membership, or unrelated individual activity.
 - Treat user-supplied personal data cautiously and use it only when it is clearly business-relevant and lawful in the user's context.
@@ -41,6 +44,7 @@ Use these operational guardrails before recommending a contact channel or drafti
 - Do not restart a sequence by changing the sender, channel, or subject after suppression.
 - Respect a recorded pause or future-contact date.
 - Do not generate automated bulk campaigns, mailbox connection steps, mass contact discovery, scraping flows, or spam-like sending instructions.
+- Keep one active thread per account. Do not contact procurement, engineering, and general channels concurrently with duplicate or substantially similar messages.
 
 ## Regional Awareness
 
@@ -63,4 +67,5 @@ For medical, financial, government, defense, public safety, critical infrastruct
 
 - Draft and prioritize only. Do not send messages or connect email, CRM, social, or messaging accounts.
 - Recommend contact enrichment only through lawful public business sources; do not perform private contact discovery.
+- Limit retained contacts to the minimum needed for the matched opportunity and do not commit reports containing contact addresses or non-public customer information to a public repository.
 - For P4, suppressed, or do-not-contact accounts, produce research actions rather than an active sales sequence unless a neutral note is explicitly requested and legally appropriate.

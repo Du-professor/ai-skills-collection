@@ -9,6 +9,8 @@ Select one mode before formatting. Use `standard` unless the user explicitly ask
 - Deep Mode
 - Batch Mode
 - CRM Schema
+- Contact Discovery Results
+- Contact Sequence Plan
 - Dynamic Output Sanitization
 - Artifact Rule
 
@@ -22,7 +24,8 @@ Return:
 4. Primary opportunity path and best angle
 5. Three most important evidence gaps
 6. Recommended next action
-7. First permitted message in the required languages, or the reason outreach is withheld
+7. Best verified public role/channel and its contact rank when discovery is requested
+8. First permitted message in the required languages, or the reason outreach is withheld
 
 ## Standard Mode
 
@@ -68,9 +71,39 @@ Use the mandatory fields in `research-sources.md`. Standard mode may include onl
 - Outreach Readiness table with all five dimensions
 - Base priority, Readiness cap, hard caps, contact-status gates, final priority, and downgrade reasons
 
+### Contact Discovery Results
+
+When contact discovery is requested or P1/P2 research reveals relevant public channels, use the fields and verification states in `contact-discovery-and-routing.md`.
+
+| Rank | Contact or role | Role family | Public business channel | Address type | Verification status | Role source | Address source | Role Value | Channel Quality | Contact Priority Index | Action |
+|---:|---|---|---|---|---|---|---|---:|---:|---:|---|
+
+- Include no more than four targets per account.
+- Show `Not found` rather than inventing a contact or address.
+- A `Third-party unverified` record must say `Verify first`, not `Send`.
+- For `Prohibited`, omit the address value and explain the reason without exposing it.
+
+### Procurement Versus Engineering Assessment
+
+- State which role has higher value at the current stage, which role owns technical acceptance, which role owns supplier qualification, and what evidence supports the order.
+- Do not assume procurement or engineering is always first.
+
+### Channel Value Assessment
+
+- Compare the available named corporate, role inbox, department, office, form, professional-message, research-only, and prohibited channel types.
+- Describe routing quality, evidence confidence, and privacy risk. Do not promise response or deliverability.
+
+### Contact Sequence Plan
+
+| Touch | Timing | Target contact or role | Channel | Message objective | Switch or stop condition | Ordering reason |
+|---:|---|---|---|---|---|---|
+
+- Maintain one active thread per account and use no more than the touches allowed by final priority.
+- State why the next role is preferable to continuing the current thread.
+
 ### Contact Recommendation
 
-- Best role or team, available public business channel type, source, routing rationale, and roles to avoid
+- Best role or team, verified public business channel type, source, routing rationale, and roles to avoid
 - Do not invent an address when none is public
 
 ### Outreach Package
@@ -99,7 +132,8 @@ Return all Standard sections and add:
 - Detailed technical architecture and integration hypotheses
 - Buying-committee map
 - Likely objections and safe discovery questions
-- Contact-channel comparison
+- Complete public-contact evidence, scoring, verification, and channel comparison
+- Procurement-versus-engineering decision path and account-level contact order
 - Customer, OEM, systems-integrator, channel, and technical-partnership path comparison
 - Reactivation signals and 30/60/90-day research actions when contact-now is not recommended
 
@@ -111,8 +145,8 @@ Normalize and deduplicate before scoring. Preserve all original source names and
 
 Start with:
 
-| Normalized company | Source names | Account Fit | Readiness | Final priority | Contact status | Primary path | Best angle | Missing evidence | Next action | Next review |
-|---|---|---:|---:|---|---|---|---|---|---|---|
+| Normalized company | Source names | Account Fit | Readiness | Final priority | Contact status | Primary path | Best role | Channel status | Best angle | Missing evidence | Next action | Next review |
+|---|---|---:|---:|---|---|---|---|---|---|---|---|---|
 
 Then:
 
@@ -120,6 +154,7 @@ Then:
 - Give P3 accounts a short research/nurture note and reactivation condition.
 - Give P4 or suppressed accounts a no-contact reason and research action.
 - Do not generate a second initial message for `contacted`, `paused`, or `do not contact` records.
+- Discover and rank contacts only for P1/P2 accounts unless the user explicitly asks for a P3 routing target. Do not collect contacts for P4 accounts.
 
 ## CRM Schema
 
@@ -138,6 +173,15 @@ Then:
 - Decision-maker and influencer roles
 - Contact name and role, when supplied
 - Contact-channel type and public source
+- Contact discovery date and last verification date
+- Role source and address source
+- Address type and verification status
+- Role Value Score
+- Channel Quality Score
+- Contact Priority Index and sequence rank
+- Recommended contact action: send, route, verify first, hold, or prohibit
+- Procurement-versus-engineering assessment
+- Channel-value rationale
 - Contact status
 - Last outreach stage and date, when supplied
 - Best outreach scenario
@@ -154,7 +198,7 @@ Apply these rules before placing any user-provided or webpage-sourced value in
 a Markdown response, table, heading, list, message draft, or `.md` artifact.
 Treat every dynamic value as untrusted plain text, including company names,
 account names, contacts, roles, evidence, page titles, URLs, quoted text, CRM
-fields, and message bodies. Static labels written by the Skill may retain their
+fields, public business addresses, and message bodies. Static labels written by the Skill may retain their
 intended Markdown formatting.
 
 ### Plain-Text Normalization
@@ -177,7 +221,7 @@ intended Markdown formatting.
 - Before inserting a dynamic value into a Markdown table cell, replace CR, LF,
   tabs, and repeated whitespace with a single space.
 - Escape every table delimiter `|` as `\|`, including delimiters found in page
-  titles, URLs, evidence excerpts, account names, and contact fields.
+  titles, URLs, evidence excerpts, account names, addresses, and contact fields.
 - Keep message bodies outside Markdown tables. After sanitization, render them
   as four-space-indented plain-text blocks so their intended line breaks remain
   readable without allowing a user-controlled code fence to close the block.
@@ -192,6 +236,17 @@ intended Markdown formatting.
   page title as a Markdown link label and never emit a dynamic URL as an image.
 - Mark unsupported, malformed, or non-web schemes as `Unsafe or unsupported
   URL omitted` rather than rendering them as active content.
+
+### Email Address Handling
+
+- Render an allowed public business address as sanitized plain text. Do not
+  create a `mailto:` link or place the address in a Markdown link target.
+- Output an address only when it was explicitly published by a permitted
+  source. Never complete, infer, or reconstruct a partially hidden address.
+- Place the verification status and source next to the address so it cannot be
+  mistaken for a verified send channel after copying.
+- For `Third-party unverified`, retain the `Verify first` action in every table,
+  CRM field, and artifact. For `Prohibited`, omit the address value entirely.
 
 ### Spreadsheet Formula Neutralization
 
@@ -220,4 +275,6 @@ write the complete selected-mode result to one Markdown file. Build the
 filename from a safe slug containing only letters, digits, hyphens, and
 underscores plus the research date; do not use a raw account name or
 user-provided path. Do not place private contact data or non-public customer
-information in a public repository.
+information in a public repository. Reports containing public business contact
+addresses may be written to the user's private workspace when requested, but
+must not be committed to a public repository or included in a public example.

@@ -41,6 +41,8 @@ Use role families rather than guessed names.
 
 ## Contact-Channel Recommendation
 
+When individual contact discovery, procurement-versus-engineering comparison, channel scoring, or contact order is requested, load and follow `contact-discovery-and-routing.md`. Its verification status, scoring, and one-active-thread rules take precedence over the general ranking below.
+
 Rank only channels that are publicly available and business-relevant:
 
 1. Named business contact whose public role directly owns the topic.

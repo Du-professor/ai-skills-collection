@@ -7,6 +7,7 @@ Draft gradual, evidence-based outreach. Be transparent about the intent to explo
 - Language Policy
 - Outreach Scenarios
 - Sequence Length by Final Priority
+- Account-Level Role Orchestration
 - P1 and P2 Sequence
 - P3 Sequence
 - Output Fields
@@ -42,16 +43,27 @@ Draft gradual, evidence-based outreach. Be transparent about the intent to explo
 
 | Final priority | Default output |
 |---|---|
-| P1 | Initial email, follow-up 1, follow-up 2, final follow-up. |
-| P2 | Initial email, follow-up 1, follow-up 2, final follow-up. |
+| P1 | No more than four total account touches across all contacts. |
+| P2 | No more than four total account touches across all contacts. |
 | P3 | One research/routing email and one clearly labeled optional follow-up. |
 | P4 | No outreach. If the user explicitly insists, one neutral research note only. |
 
 Use the final priority after all readiness, evidence, status, and industry caps.
 
+## Account-Level Role Orchestration
+
+- Load `contact-discovery-and-routing.md` when more than one role or channel is available.
+- Keep one active thread per account. Do not duplicate the initial message across procurement, engineering, product, partnership, and general channels.
+- Select the first role from the primary opportunity path, not from email availability alone.
+- For end-customer, OEM, and systems-integration opportunities, a technical owner usually validates relevance before procurement handles supplier qualification.
+- For channel opportunities, product/category or partnership ownership usually precedes procurement administration.
+- For an official tender, RFQ, or supplier-onboarding process, follow the named procurement entry point first.
+- A role switch replaces the remaining sequence to the first contact; it does not create an additional cadence.
+- State the target role, channel verification status, contact rank, switch condition, and reason for every touch.
+
 ## P1 and P2 Sequence
 
-### Initial Email - Day 0
+### Touch 1: Initial Email to Primary Role - Day 0
 
 - Mention one specific, non-sensitive observation supported by the evidence ledger.
 - State the intent to explore cooperation or determine whether a solution area is relevant.
@@ -59,19 +71,21 @@ Use the final priority after all readiness, evidence, status, and industry caps.
 - Do not include a product catalog, pricing, unsupported ROI, attachment, aggressive demo request, or meeting request as the main CTA unless the user explicitly asks.
 - P1 may name the strongest solution area. P2 should verify the scenario before describing offerings.
 
-### Follow-Up 1 - 3-5 Business Days Later
+### Touch 2: Follow-Up to Primary Role - Day 4
 
 - Refer to the initial question without implying it was read.
 - Add one useful operational or technical consideration relevant to the prospect.
 - Ask whether the topic is owned by the recipient or another team.
 
-### Follow-Up 2 - 7-10 Business Days After Follow-Up 1
+### Touch 3: Secondary Role or Continued Thread - Day 9
 
-- Connect one demonstrated user-company capability to the prospect's possible scenario.
-- Use conditional language such as `if this is relevant` or `if your team is evaluating this`.
-- Ask whether exchanging brief context would be useful; do not ask for a purchase decision.
+- If a credible second role exists and the first thread remains unanswered, pause the first thread and send a role-adapted routing message to the second role.
+- Explain only the business or technical topic relevant to the second role; do not imply that the first recipient ignored the message.
+- If no credible second role exists, continue the original thread only when there is one new, evidence-based consideration to add.
+- Connect at most one demonstrated user-company capability using conditional language such as `if this is relevant`.
+- Ask one routing, relevance, or context-exchange question; do not ask for a purchase decision.
 
-### Final Follow-Up - About 14 Calendar Days After Follow-Up 2
+### Touch 4: Final Follow-Up - Day 14
 
 - Acknowledge that the topic may not be a current priority.
 - Offer to reconnect later or be routed to the correct owner.
@@ -91,6 +105,7 @@ Use the final priority after all readiness, evidence, status, and industry caps.
 - Label this message `Optional - send only if there is a credible reason to continue`.
 - Ask one final routing or timing question and state that no further follow-up will be sent if the topic is not relevant.
 - Do not add a new sales claim.
+- Do not switch to a second person unless the first recipient explicitly routes the inquiry.
 
 ## Output Fields
 
@@ -98,10 +113,15 @@ For every permitted message provide:
 
 - Subject
 - Body
+- Target contact or fixed role label
+- Role family and sequence rank
+- Channel type and verification status
+- Role Value Score, Channel Quality Score, and Contact Priority Index when contact discovery was performed
 - Personalization basis and evidence-ledger reference
 - Primary CTA
 - Recommended send timing and time-zone assumption
 - Follow-up interval
+- Switch or stop condition
 - Draft status: `Ready for review` or `Needs input`
 
 If sender name, role, company identity, signature details, or another required field is missing, use an obvious bracketed placeholder, list it under missing inputs, and mark the draft `Needs input`. Never label a draft with unresolved placeholders as ready to send.
@@ -113,6 +133,7 @@ If sender name, role, company identity, signature details, or another required f
 - For a wrong-person reply, thank the recipient and ask for routing at most once.
 - For an out-of-office reply, wait until after the stated return date and resume with no more than one appropriate message.
 - Do not restart an initial sequence for an account already in an active cadence.
+- A switch to another role pauses the first thread and stays within the account's total touch limit.
 
 ## Pre-send QA
 
@@ -128,6 +149,9 @@ Check every sendable message and report pass/fail. Revise before returning when 
 - No private contact data or sensitive personal attribute.
 - No attachment, product catalog, meeting pressure, or aggressive demo request in the first email unless requested.
 - Sequence length and posture match final P1/P2/P3/P4 priority.
+- The target channel is `Official public`, `Corroborated public`, `Role inbox`, or `General routing`; no `Third-party unverified` or `Prohibited` address is used.
+- Role and channel scores support the documented contact order; email convenience does not override role ownership.
+- No duplicate initial message is sent to multiple people and the account-level touch count does not exceed the permitted sequence.
 - Sender identity and signature requirements are satisfied or clearly flagged as missing.
 - No unresolved placeholder appears in a draft marked `Ready for review`.
 - Language reads naturally for the intended region and is not a literal translation.

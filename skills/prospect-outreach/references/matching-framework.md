@@ -46,6 +46,8 @@ Score out of 100.
 
 If no contact role is available, assign no more than `5/25` for contact role relevance and cap total Outreach Readiness at `49`. A public role inbox may improve channel availability but does not establish role ownership.
 
+For channel scoring, count only `Official public`, `Corroborated public`, `Role inbox`, or `General routing` channels defined in `contact-discovery-and-routing.md`. A `Third-party unverified` address may contribute research evidence but no more than `3/15` for usable channel availability and must not be selected for sending. `Prohibited` contributes `0/15`.
+
 ## Priority Algorithm
 
 1. Derive base priority from Account Fit.

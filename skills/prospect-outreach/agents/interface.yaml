@@ -1,7 +1,7 @@
 interface:
   display_name: "Prospect Outreach"
-  short_description: "Score account fit and draft localized outreach."
-  default_prompt: "Use $prospect-outreach to analyze our company and a prospect, score account fit and outreach readiness, and draft appropriate localized outreach."
+  short_description: "Score account fit, rank public contacts, and draft outreach."
+  default_prompt: "Use $prospect-outreach to analyze our company and a prospect, score account fit and outreach readiness, discover and rank public business contacts, and draft appropriate localized outreach."
 
 policy:
   allow_implicit_invocation: true

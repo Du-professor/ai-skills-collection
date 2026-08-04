@@ -15,6 +15,18 @@ Prefer sources in this order:
 
 Do not use a lower-confidence source for a strong outreach claim when a primary source is available.
 
+## Public Business Contact Sources
+
+When contact discovery is requested, load `contact-discovery-and-routing.md` and search only for roles connected to the matched opportunity. Search the official company domain before third-party sources.
+
+- Treat an official contact page, team page, supplier page, company PDF, public filing, press release, or event document as the strongest address evidence.
+- A contact-controlled public professional page may confirm current employment or an explicitly published business address.
+- Trade associations, conference organizers, partner directories, and professional publications may corroborate a current business role.
+- Treat public business directories as research leads only. A single third-party address is never ready to send.
+- Do not use copied directory clusters as independent corroboration.
+- Do not collect personal mailboxes, guessed addresses, private profiles, leaked records, or unrelated personal information.
+- Record role evidence and address evidence separately; a verified role does not verify an email address.
+
 ## Evidence Ledger
 
 Record each material conclusion before scoring.
@@ -54,6 +66,8 @@ For user-provided information that cannot be publicly confirmed, set source owne
 | Contact name missing | Continue when account evidence is sufficient; use role-neutral language. |
 | Contact role missing | Preserve Account Fit, cap Outreach Readiness at 49, and use routing outreach. |
 | Public business contact channel missing | Cap Outreach Readiness at 29; recommend enrichment without guessing an address. |
+| Only a third-party email is found | Mark `Third-party unverified`; do not recommend sending until corroborated. |
+| Only a personal or inferred email is found | Omit the address, mark `Prohibited`, and use an official routing channel or stop. |
 | Sender identity missing | Draft with explicit placeholders and mark messages `Needs input`. |
 | Local language unclear | Use English as the sendable fallback and provide Chinese internal reference when required. |
 
@@ -66,6 +80,8 @@ For user-provided information that cannot be publicly confirmed, set source owne
 - Which commercial path is plausible: end customer, OEM, systems integrator, channel/distributor, technical partner, or nurture?
 - What current trigger is visible, and how strong is it?
 - Which roles likely own, influence, evaluate, buy, or route the topic?
+- Which public source proves the role, and which public source separately proves the business address?
+- Should engineering, procurement, product/category, partnership, or a routing team receive the first message for this opportunity path?
 - What must be verified before a product, compatibility, performance, or ROI statement would be safe?
 
 ## Batch Entity Resolution
